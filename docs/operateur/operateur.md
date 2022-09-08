@@ -1,5 +1,9 @@
 # Opérateur
 
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+```
+
 Un opérateur est un symbole représentant une opération à effectuer sur des données.
 
 Plusieurs problèmes nécessitent des calculs mathématiques ou l'évaluation d'expressions booléennes.
@@ -34,16 +38,15 @@ Voici les principaux opérateurs classés par catégorie qui seront utilisés da
 Pour plus d'informations, consultez la [liste complète des opérateurs en C#](http://msdn.microsoft.com/fr-fr/library/6a71f45d.aspx)
 
 
-| **Catégorie** | **Opérateur** | - | `int nombre1 = 10, nombre2 = 3;` | **Résultats** |
-| ------------- | ------------- | - | -------------------------------- | ------------- |
-| Arithmétique - multiplicative | * Multiplication / Division % Modulo (reste de la division ) | `nombre1  * nombre2` `nombre1  / nombre2` `nombre1  % nombre2` | `30` `3` `1` |
-| Arithmétique - additive          | +  Addition  +  Concaténation de chaîne- Soustraction        | `nombre1  + nombre2`  | `"cours" + " 116"`
-`nombre1  - nombre2` | `13`
-`"cours 116"` `7` |
-| Relationnel | < Plus petit > Plus grand <= Plus petit ou égal >= Plus grand ou égal | `nombre1  > nombre2` `nombre1  < nombre2` `nombre1 <= 10` `nombre2 >= 2`  |  `true` `false` `true` `true` |
-| Égalité | == Égal != Non égal (différent) | `nombre1  == nombre2` `nombre1  != nombre2` | `false` `true` |
-| Assignation | = Place une valeur dans une variable  ou dans une propriété | `nombre1  = (nombre1  + nombre2)*2` |  `nombre1` contient `26` |
-| Logique | && Et || Ou | `nombre1  >= 2 && nombre2 != 4` `nombre1  == 5 || nombre2 >= 3` | `true` `true` |
-| Unaire | - Moins++ Incrément-- Décrément ! Non logique | `-nombre1` `nombre1++` `nombre2--` `!(nombre1  > nombre2)` |  `-10` `11` `2` `false` |
-| Primaire | . Accès à un membre[ ] Indexation `new` Création d'objet | `numPrix.Value` `txtNom.TexttabNombres[2]` `new Random()` | |
- 
+| **Catégorie** | **Opérateur** | `int nombre1 = 10;` <br/> `int nombre2 = 3;` | **Résultats** |
+| ------------- | ------------- |  -------------------------------- | ------------- |
+| Arithmétique <br/> - multiplicative | * : Multiplication <br/> / : Division <br/> % : Modulo : (reste de la division ) | `nombre1  * nombre2` <br/> `nombre1  / nombre2` <br/> `nombre1  % nombre2` | `30` <br/> `3` <br/> `1` |
+| Arithmétique <br/> - additive | + : Addition <br/> + : Concaténation de chaîne <br/> - : Soustraction | `nombre1  + nombre2` <br/> `"cours" + " 116"` <br/> `nombre1  - nombre2` | `13` <br/> `"cours 116"` <br/> `7` |
+| Relationnel | < : Plus petit <br/> > : Plus grand <br/> <= : Plus petit ou égal <br/> >= : Plus grand ou égal | `nombre1  > nombre2` <br/> `nombre1  < nombre2` <br/> `nombre1 <= 10` <br/> `nombre2 >= 2` | `true` <br/> `false` <br/> `true` <br/> `true` |
+| Égalité | == : Égal <br/> != : Non égal (différent) | `nombre1  == nombre2` <br/> `nombre1  != nombre2` | `false` <br/> `true` |
+| Assignation | = : Place une valeur dans une variable  ou <br/> dans une propriété | `nombre1  = (nombre1  + nombre2)*2` |  `nombre1` contient `26` |
+| Logique | && : Et <br/> \|\| : Ou | `nombre1  >= 2 && nombre2 != 4` <br/> <code>nombre1  == 5 \|\| nombre2 >= 3</code> | `true` <br/> `true` |
+| Unaire | - : Moins <br/> ++ : Incrément <br/> -- : Décrément <br/> ! : Non logique | ` - nombre1` <br/> `nombre1++` <br/> `nombre2--` <br/> `!(nombre1  > nombre2)` | `-10` <br/> `11` <br/> `2` <br/> `false` |
+| Primaire | . : Accès à un membre <br/> [ ] : Indexation <br/> `new` : Création d'objet | `numPrix.Value` `txtNom.Text` <br/> `tabNombres[2]` <br/> `new Random()` | |
+
+<DocCardList />
