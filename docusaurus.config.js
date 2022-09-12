@@ -71,7 +71,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/departement-info-cem/notions-csharp',
             label: 'GitHub',
@@ -108,6 +108,21 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['csharp'],
       },
+      algolia: {
+        // L'ID de l'application fourni par Algolia
+        appId: 'YOUR_APP_ID',
+
+        // Clé d'API publique : il est possible de la committer en toute sécurité
+        apiKey: 'YOUR_SEARCH_API_KEY',
+
+        indexName: 'docs',
+
+        // Facultatif : voir la section doc ci-dessous
+        contextualSearch: true,
+
+        // Facultatif : chemin pour la page de recherche qui est activée par défaut (`false` pour le désactiver)
+        searchPagePath: 'search',
+      }
     }),
 };
 
