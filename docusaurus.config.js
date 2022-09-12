@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Notions C#',
   tagline: 'Site de référence du cours de Programmation 1',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'http://info.cegepmontpetit.ca/',
+  baseUrl: '/notions-csharp/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
