@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Notions C#</ShortName>
+  <Description>Search Notions C#</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://info.cegepmontpetit.ca/notions-csharp/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://info.cegepmontpetit.ca/notions-csharp/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://info.cegepmontpetit.ca/notions-csharp/opensearch.xml" />
+  <moz:SearchForm>https://info.cegepmontpetit.ca/notions-csharp/</moz:SearchForm>
+</OpenSearchDescription>
