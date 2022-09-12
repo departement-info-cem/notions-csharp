@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Notions C#',
   tagline: 'Site de référence du cours de Programmation 1',
-  url: 'http://info.cegepmontpetit.ca/',
+  url: 'https://info.cegepmontpetit.ca/',
   baseUrl: '/notions-csharp/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
