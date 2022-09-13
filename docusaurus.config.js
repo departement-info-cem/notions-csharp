@@ -85,16 +85,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Pages',
             items: [
               {
-                label: 'Accueil',
+                label: 'Documentation',
                 to: '/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Sources',
             items: [
               {
                 label: 'GitHub',
