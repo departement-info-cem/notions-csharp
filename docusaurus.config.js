@@ -41,6 +41,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/departement-info-cem/notions-csharp/tree/main',
+          sidebarCollapsed: false,
         },
         blog: {
           showReadingTime: true,
