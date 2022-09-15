@@ -18,7 +18,7 @@ Il faut utiliser les méthodes **Parse()** et **ToString()** (exemples 4 et 5).
 
 La conversion implicite est effectuée selon la hiérarchie ci-dessous.
 
-![shéma conversion - transtypage](./_conversion-transtypage/schema-conversion-implicite.jfif)
+![shéma conversion - transtypage](./_conversion-transtypage/_assets/_schema-conversion-implicite.jfif)
 
 Si la conversion est impossible, une erreur de compilation est obtenue.
 
