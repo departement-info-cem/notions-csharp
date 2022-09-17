@@ -14,6 +14,6 @@ La **répétition** permet de répéter un bloc d'instructions un certain nombre
 
 L'**appel de méthode** permet de diriger le contrôle de l'exécution vers une autre section du code. Une fois la méthode terminée, le contrôle revient à l'instruction qui suit l'appel de cette méthode.
 
-![structures de contrôle](./_assets/_structures-de-controles.jpg)
+![structures de contrôle](./_structures-de-controles.jpg)
 
 <DocCardList />
