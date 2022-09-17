@@ -5,6 +5,7 @@ sidebar_position: 1
 # Mots réservés
 
 Les **mots réservés** ou mots-clés, sont interprétés par le compilateur et ne peuvent être utilisés comme identificateurs.
+
 Voici quelques-uns des mots réservés les plus fréquents utilisés dans le cours 116.
 
 

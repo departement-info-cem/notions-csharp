@@ -4,19 +4,19 @@ sidebar_position: 14
 
 # Chaîne / string
 
-import ExempleLength from './_chaine-string/_length-exemple.md';
-import ExempleSubstring from './_chaine-string/_substring-exemple.md';
-import ExempleIndexOf from './_chaine-string/_indexof-exemple.md';
-import ExempleLastIndexOf from './_chaine-string/_lastindexof-exemple.md';
-import ExempleToLower from './_chaine-string/_tolower-exemple.md';
-import ExempleToUpper from './_chaine-string/_toupper-exemple.md';
-import ExempleTrim from './_chaine-string/_trim-exemple.md';
-import ExempleTrimEnd from './_chaine-string/_trimend-exemple.md';
-import ExempleInsert from './_chaine-string/_insert-exemple.md';
-import ExemplePadRight from './_chaine-string/_padright-exemple.md';
-import ExempleContains from './_chaine-string/_contains-exemple.md';
-import ExempleSplit from './_chaine-string/_split-exemple.md';
-import Exemple1 from './_chaine-string/_exemple1.md';
+import ExempleLength from './_chaine-string/_assets/_length-exemple.md';
+import ExempleSubstring from './_chaine-string/_assets/_substring-exemple.md';
+import ExempleIndexOf from './_chaine-string/_assets/_indexof-exemple.md';
+import ExempleLastIndexOf from './_chaine-string/_assets/_lastindexof-exemple.md';
+import ExempleToLower from './_chaine-string/_assets/_tolower-exemple.md';
+import ExempleToUpper from './_chaine-string/_assets/_toupper-exemple.md';
+import ExempleTrim from './_chaine-string/_assets/_trim-exemple.md';
+import ExempleTrimEnd from './_chaine-string/_assets/_trimend-exemple.md';
+import ExempleInsert from './_chaine-string/_assets/_insert-exemple.md';
+import ExemplePadRight from './_chaine-string/_assets/_padright-exemple.md';
+import ExempleContains from './_chaine-string/_assets/_contains-exemple.md';
+import ExempleSplit from './_chaine-string/_assets/_split-exemple.md';
+import Exemple1 from './_chaine-string/_assets/_exemple1.md';
 
 Une chaîne est une collection séquentielle de 0 ou plusieurs caractères Unicode.
 
