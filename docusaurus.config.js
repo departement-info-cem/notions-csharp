@@ -64,7 +64,7 @@ const config = {
         title: 'Notions C#',
         logo: {
           alt: 'Logo CEM',
-          src: 'img/logo.ico',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -124,7 +124,10 @@ const config = {
 
         // Facultatif : chemin pour la page de recherche qui est activée par défaut (`false` pour le désactiver)
         searchPagePath: 'search',
-      }
+      },
+      metadata: [
+        {name: "keywords", content : 'notions, c#, programmation 1, informatique, technique, cégep, cegep, édouard-montpetit, edouard-montpetit, édouard montpetit, edouard montpetit'}
+      ],
     }),
 };
 
