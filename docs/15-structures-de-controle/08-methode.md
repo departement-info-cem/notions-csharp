@@ -105,45 +105,18 @@ Une méthode peut retourner une valeur.
 Lors de la déclaration :
 
 - Le **type de donnés** de la valeur retournée remplace le mot réservé `void`.
-La méthode doit contenir obligatoirement une instruction return suivie de la valeur à retourner.
-La valeur retournée doit être de même type que le type défini dans la déclaration.
-Cependant, les conversions implicites et explicites sont possibles.
- Déclaration de méthode
- Appels de méthode
-  Résultats
-private int NbDigits(int pNombre)
-{
-    int cptDigits = 0;
+- La méthode doit contenir **obligatoirement** une instruction `return` suivie de la valeur à retourner.
+- La valeur retournée doit être de même type que le type défini dans la déclaration. Cependant, les conversions implicites et explicites sont possibles.
 
-    while (pNombre > 0)
-    {
-       pNombre = pNombre / 10;
-       cptDigits++;
-    }
-    return cptDigits;
-}	  int nbChiffres = NbDigits(12345);
-  Console.WriteLine(nbChiffres);
+| Déclaration de méthode | Appels de méthode | Résultats |
+| ---------------------- | ----------------- | --------- |
+| <AvecValeurRetourAvecParam/> | <AvecValeurRetourAvecParamAppel/> | 5 <br/> <br/> 0 <br/> <br/> 3 |
 
-  nbChiffres = NbDigits(0);
-  Console.WriteLine(nbChiffres);
+## Surcharge de méthodes
 
-  nbChiffres = NbDigits(555);
-  Console.WriteLine(nbChiffres);	 
-  5
+Lorsque des méthodes portent le même nom mais sont déclarées avec des paramètres différents soit en nombre et/ou en type de données, il y a surchage de méthodes.
 
+Exemple : 2 surchages pour la méthode **AfficherLigne**.
 
-  0
-
-
-  3
- 
-
-Surcharge de méthodes
-Lorsque des méthodes portent le même nom mais sont déclarées avec des paramètres différents
-soit en nombre et/ou en type de données, il y a surchage de méthodes.
-
-Exemple : 2 surchages pour la méthode AfficherLigne.
-
--    private void AfficherLigne()
-
--    private void AfficherLigne(char pLettreDebut, int pCptFois)
+- `private void AfficherLigne()`
+- `private void AfficherLigne(char pLettreDebut, int pCptFois)`
