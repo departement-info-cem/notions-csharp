@@ -112,12 +112,12 @@ const config = {
       },
       algolia: {
         // L'ID de l'application fourni par Algolia
-        appId: 'YOUR_APP_ID',
+        appId: 'GN4NP7F2WV',
 
         // Clé d'API publique : il est possible de la committer en toute sécurité
-        apiKey: 'YOUR_SEARCH_API_KEY',
+        apiKey: 'a5eea557b24fde9c79c8194d5a1e1337',
 
-        indexName: 'docs',
+        indexName: 'cegepmontpetit',
 
         // Facultatif : voir la section doc ci-dessous
         contextualSearch: true,
