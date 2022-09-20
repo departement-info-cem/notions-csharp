@@ -1,5 +1,7 @@
 # Notions C#
 
+![build](https://github.com/departement-info-cem/notions-csharp/actions/workflows/deploy.yml/badge.svg)
+
 Site de référence pour le cours de Programmation 1 (1N6) du CÉGEP Édouard-Montpetit développé par les enseignants du département d'informatique.
 
 Ce site de documentation a été construit avec [Docusaurus 2](https://docusaurus.io/). Référez vous à la documentation officielle pour modifier le site.
