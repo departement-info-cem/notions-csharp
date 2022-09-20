@@ -40,7 +40,7 @@ Exemple :  char premiereLettre = uneChaine[0];
 
 | Propriété | Type | Description | Exemple | Résultat |
 | :-------: | ---- | ----------- | ------- | :------: |
-| ![méthode](./_00-shared/_propriete.png) <br/> Length | `int` | Obtient la longueur de la chaine. | <ExempleLength/> | 12 |
+| ![propriété](./_00-shared/_propriete.png) <br/> Length | `int` | Obtient la longueur de la chaine. | <ExempleLength/> | 12 |
 
 | Méthode | Valeur <br/> de <br/> retour | Description | Exemple | Résultat |
 | :-----: | :--------------------------: | ----------- | ------- | :------: |
