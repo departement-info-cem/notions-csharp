@@ -1,0 +1,3 @@
+```cs
+objFichierALire.Close();
+```

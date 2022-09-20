@@ -1,0 +1,3 @@
+```cs
+Directory.SetCurrentDirectory("Catégories");
+```
