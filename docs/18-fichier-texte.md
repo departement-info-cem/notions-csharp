@@ -64,9 +64,9 @@ Ces deux classes offrent des méthodes pour la manipulation de fichiers et de r�
 
 | Méthode | Valeur <br/> de <br/> retour | Description |
 | :-----: | :--------------------------: | ----------- |
-| WriteLine(string pChaine) | `void` | Écrit à la position du pointeur de lecture le paramètre pChaine, suivie du code de Fin de ligne. <WriteLine/> |
-| Write(string pChaine) | `void` | Écrit à la position du pointeur de lecture, le paramètre pChaine. <Write/> Ligne obtenue dans le fichier : `Bonne journée`. |
-| Close() | `void` | Ferme l'objet StreamWriter et le flux de sortie sous-jacent et libère les ressources du fichier <Close3/> Lors de la création de l'objet d'écriture, si on inclut `using`, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close4/> |
+| ![méthode](./_00-shared/_methode.png) WriteLine(string pChaine) | `void` | Écrit à la position du pointeur de lecture le paramètre pChaine, suivie du code de Fin de ligne. <WriteLine/> |
+| ![méthode](./_00-shared/_methode.png) Write(string pChaine) | `void` | Écrit à la position du pointeur de lecture, le paramètre pChaine. <Write/> Ligne obtenue dans le fichier : `Bonne journée`. |
+| ![méthode](./_00-shared/_methode.png) Close() | `void` | Ferme l'objet StreamWriter et le flux de sortie sous-jacent et libère les ressources du fichier <Close3/> Lors de la création de l'objet d'écriture, si on inclut `using`, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close4/> |
  
 ## Exemple : Lecture d'un fichier nommé "Autos.txt" pour afficher son contenu sur la console.
 
