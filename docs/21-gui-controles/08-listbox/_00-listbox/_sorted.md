@@ -1,0 +1,3 @@
+```cs
+lstExemple.Sorted = true;
+```
