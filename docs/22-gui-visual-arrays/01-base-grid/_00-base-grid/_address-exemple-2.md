@@ -1,0 +1,3 @@
+```cs
+adresseCourante = sprJoueur.DisplayAddress;
+```
