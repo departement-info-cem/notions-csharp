@@ -19,23 +19,23 @@ Chaque cellule de la grille peut être accédée par un index indiquant sa posit
 
 | Propriété | Type | Description |
 | :-------: | :--: | ---------- |
-| ![méthode](../../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objet. Préfixe : `bva` Exemple : `bvaJeu` |
-| ![méthode](../../_00-shared/_propriete.png) <br/> AddressMode | | Mode d'adressage des cellules : la façon dont les cellules sont numérotées. <br/> - Normal : par rangée de gauche à droite en partant du coin supérieur gauche <br/> - Column : par colonne à partir du coin supérieur gauche <br/> - ColumnReverse : par colonne à partir du coin inférieur droit <br/> - Reverse : par rangée à partir du coin inférieur droit <br/> - ReverseRow : par rangée à partir du coin inférieur gauche <br/> - ReverseColumn : par rangée à partir du coin supérieur droit <br/> - StairsTopLeft : en escalier en partant du coin supérieur gauche <br/> - StairsTopRight : en escalier en partant du coin supérieur droit <br/> - StairsBottomLeft : en escalier en partant du coin inférieur gauche <br/> - StairsBottomRight :  en escalier en partant du coin inférieur droit |
-| ![méthode](../../_00-shared/_propriete.png) <br/> AddressView | | Détermine l'affichage des adresses des cellules en mode conception : <br/> - None : les adresses ne sont pas affichées <br/> - Mode 1D : affiche l'index de la cellule <br/> - Mode 2D : affiche l'adresse de la cellule, soit le numéro de la rangée et le numéro de la colonne |
-| ![méthode](../../_00-shared/_propriete.png) <br/> BackgroundImage | | Indique l'image d'arrière-plan utilisée pour le contrôle. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> ColumnCount | `int` | Obtient ou définit le nombre de colonnes. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> ColumnHeader | | Détermine l'aspect de l'entête des colonnes. | Pour afficher l'entête des colonnes, la propriété Visible est définie à `true`. <ColumnHeader/> |
-| ![méthode](../../_00-shared/_propriete.png) <br/> ColumnHeaderArray | `string` | Tableau à une dimension pour l'affichage en-têtes de colonnes |
-| ![méthode](../../_00-shared/_propriete.png) <br/> Delay | `int` | Obtient ou définit le délai d'attente en millisecondes. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> Enabled | `bool` | Obtient ou définit une valeur true ou false qui indique si le contrôle est activé ou non. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> Length | `int` | Obtient le nombre de cellules. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> RowCount | `int` | Obtient ou définit le nombre de rangées. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> RowHeader | | Détermine l'aspect de l'entête des rangées. Pour afficher l'entête des rangées, la propriété Visible est définie à true. <RowHeader/> |
-| ![méthode](../../_00-shared/_propriete.png) <br/> RowHeaderArray | `string` | Tableau à une dimension pour l'affichage en-têtes de rangées |
-| ![méthode](../../_00-shared/_propriete.png) <br/> SelectedIndex | `int` | Obtient ou définit l'index de la cellule sélectionnée en tenant compte du mode d'adressage. S'il n'y a pas de cellule sélectionnée, alors l'index est **-1**. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> SelectionMode | | Obtient ou définit le mode de sélection des cellules. <br/> - None : aucune sélection <br/> - One : sélection d'une seule cellule <br/> - MultiSimple (ctrl ) et MultiExtended (shift, ctrl): sélection de plusieurs cellules à la fois. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> Sprites | `Collection` | Représente la collection de sprites appartenant à la grille. Les sprites peuvent avoir des formes et des couleurs différentes, être animés, affichés à un index ou à une adresse donnée. |
-| ![méthode](../../_00-shared/_propriete.png) <br/> Visible | `bool` | Obtient ou définit une valeur true ou false indiquant si le contrôle est visible ou non. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objet. Préfixe : `bva` Exemple : `bvaJeu` |
+| ![propriete](../../_00-shared/_propriete.png) <br/> AddressMode | | Mode d'adressage des cellules : la façon dont les cellules sont numérotées. <br/> - Normal : par rangée de gauche à droite en partant du coin supérieur gauche <br/> - Column : par colonne à partir du coin supérieur gauche <br/> - ColumnReverse : par colonne à partir du coin inférieur droit <br/> - Reverse : par rangée à partir du coin inférieur droit <br/> - ReverseRow : par rangée à partir du coin inférieur gauche <br/> - ReverseColumn : par rangée à partir du coin supérieur droit <br/> - StairsTopLeft : en escalier en partant du coin supérieur gauche <br/> - StairsTopRight : en escalier en partant du coin supérieur droit <br/> - StairsBottomLeft : en escalier en partant du coin inférieur gauche <br/> - StairsBottomRight :  en escalier en partant du coin inférieur droit |
+| ![propriete](../../_00-shared/_propriete.png) <br/> AddressView | | Détermine l'affichage des adresses des cellules en mode conception : <br/> - None : les adresses ne sont pas affichées <br/> - Mode 1D : affiche l'index de la cellule <br/> - Mode 2D : affiche l'adresse de la cellule, soit le numéro de la rangée et le numéro de la colonne |
+| ![propriete](../../_00-shared/_propriete.png) <br/> BackgroundImage | | Indique l'image d'arrière-plan utilisée pour le contrôle. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> ColumnCount | `int` | Obtient ou définit le nombre de colonnes. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> ColumnHeader | | Détermine l'aspect de l'entête des colonnes. | Pour afficher l'entête des colonnes, la propriété Visible est définie à `true`. <ColumnHeader/> |
+| ![propriete](../../_00-shared/_propriete.png) <br/> ColumnHeaderArray | `string` | Tableau à une dimension pour l'affichage en-têtes de colonnes |
+| ![propriete](../../_00-shared/_propriete.png) <br/> Delay | `int` | Obtient ou définit le délai d'attente en millisecondes. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> Enabled | `bool` | Obtient ou définit une valeur true ou false qui indique si le contrôle est activé ou non. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> Length | `int` | Obtient le nombre de cellules. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> RowCount | `int` | Obtient ou définit le nombre de rangées. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> RowHeader | | Détermine l'aspect de l'entête des rangées. Pour afficher l'entête des rangées, la propriété Visible est définie à true. <RowHeader/> |
+| ![propriete](../../_00-shared/_propriete.png) <br/> RowHeaderArray | `string` | Tableau à une dimension pour l'affichage en-têtes de rangées |
+| ![propriete](../../_00-shared/_propriete.png) <br/> SelectedIndex | `int` | Obtient ou définit l'index de la cellule sélectionnée en tenant compte du mode d'adressage. S'il n'y a pas de cellule sélectionnée, alors l'index est **-1**. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> SelectionMode | | Obtient ou définit le mode de sélection des cellules. <br/> - None : aucune sélection <br/> - One : sélection d'une seule cellule <br/> - MultiSimple (ctrl ) et MultiExtended (shift, ctrl): sélection de plusieurs cellules à la fois. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> Sprites | `Collection` | Représente la collection de sprites appartenant à la grille. Les sprites peuvent avoir des formes et des couleurs différentes, être animés, affichés à un index ou à une adresse donnée. |
+| ![propriete](../../_00-shared/_propriete.png) <br/> Visible | `bool` | Obtient ou définit une valeur true ou false indiquant si le contrôle est visible ou non. |
 
 | Méthode | Description |
 | :-----: | ----------- |
@@ -60,11 +60,11 @@ Chaque cellule de la grille peut être accédée par un index indiquant sa posit
 
 | Événement | Description |
 | :-------: | ----------- |
-| ![méthode](../../_00-shared/_evenement.png) <br/> CellDragDrop | Se produit lorsqu'une cellule est glissée-déposée dans une autre cellule. |
-| ![méthode](../../_00-shared/_evenement.png) <br/> CellMouseDown | Se produit lorsque l'utilisateur appuie sur un bouton de la souris lorsque le pointeur se trouve sur une cellule. (`MouseDown`) Le paramètre ( `... VisualArrays.CellMouseEventArgs e)` du gestionnaire d'événement `CellMouseDown` permet d'obtenir, entre autres, l'index de la cellule cliquée. Suite à un clic dans une cellule, le contenu de la cellule cliquée est récupéré : <CellMouseDown/> |
-| ![méthode](../../_00-shared/_evenement.png) <br/> KeyDown | Se produit lorsqu'une touche est enfoncée une première fois. Le paramètre `( ... VisualArrays.KeyEventArgs e)` du gestionnaire d'événement `KeyDown` permet d'obtenir, entre autres, le code de clavier. L'énumération Keys offre la liste des touches qui peuvent être enfoncées. Exemple : `Keys.Down` indique la touche flèche bas |
-| ![méthode](../../_00-shared/_evenement.png) <br/> SelectedIndexChanged | Se produit lorsque la propriété SelectedIndex est modifiée. |
+| ![evenement](../../_00-shared/_evenement.png) <br/> CellDragDrop | Se produit lorsqu'une cellule est glissée-déposée dans une autre cellule. |
+| ![evenement](../../_00-shared/_evenement.png) <br/> CellMouseDown | Se produit lorsque l'utilisateur appuie sur un bouton de la souris lorsque le pointeur se trouve sur une cellule. (`MouseDown`) Le paramètre ( `... VisualArrays.CellMouseEventArgs e)` du gestionnaire d'événement `CellMouseDown` permet d'obtenir, entre autres, l'index de la cellule cliquée. Suite à un clic dans une cellule, le contenu de la cellule cliquée est récupéré : <CellMouseDown/> |
+| ![evenement](../../_00-shared/_evenement.png) <br/> KeyDown | Se produit lorsqu'une touche est enfoncée une première fois. Le paramètre `( ... VisualArrays.KeyEventArgs e)` du gestionnaire d'événement `KeyDown` permet d'obtenir, entre autres, le code de clavier. L'énumération Keys offre la liste des touches qui peuvent être enfoncées. Exemple : `Keys.Down` indique la touche flèche bas |
+| ![evenement](../../_00-shared/_evenement.png) <br/> SelectedIndexChanged | Se produit lorsque la propriété SelectedIndex est modifiée. |
 
 | struct | Description |
 | :----: | ----------- |
-| ![méthode](../../_00-shared/_struct.png) <br/> Address | Représente l'adresse d'une cellule sous la forme rangée et colonne. <br/> **Déclaration** d'une variable de type Address <Address/> Utilisation de la variable <br/> Exemple 1 : <AddressExemple1/> Exemple 2 : <AddressExemple2/> Exemple 3 : <AddressExemple3/> |
+| ![struct](../../_00-shared/_struct.png) <br/> Address | Représente l'adresse d'une cellule sous la forme rangée et colonne. <br/> **Déclaration** d'une variable de type Address <Address/> Utilisation de la variable <br/> Exemple 1 : <AddressExemple1/> Exemple 2 : <AddressExemple2/> Exemple 3 : <AddressExemple3/> |
