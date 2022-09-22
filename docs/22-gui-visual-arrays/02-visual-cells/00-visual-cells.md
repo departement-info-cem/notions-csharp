@@ -3,6 +3,10 @@
 import RandomizeValue1 from './_00-visual-cells/_randomize-value-1.md';
 import RandomizeValue2 from './_00-visual-cells/_randomize-value-2.md';
 
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+```
+
 Une "Visual Cell" est similaire à une case mémoire. Elle contient une valeur associée à un type de données.
 Quatre types de Visual Cell sont disponibles.
 
@@ -26,3 +30,5 @@ Quatre types de Visual Cell sont disponibles.
 | :-----: | ----------- |
 | ![méthode](../../_00-shared/_methode.png) <br/> RandomizeValue | Assigne une valeur aléatoire à la propriété Value dans l'intervalle Minimum à Maximum inclusivement. <RandomizeValue1/> Ayant le VisualInt nommé vsiNombre, avec les propriétés Minimum = 5 et Maximum = 25  un nombre entre 5 et 25 est généré et est assigné à la propriété Value de vsiNombre |
 | ![méthode](../../_00-shared/_methode.png) <br/> RandomizeValue(int pMinimum, int pMaximum) | Non disponible pour un VisualBoolAssigne une valeur aléatoire à la propriété Value dans l'intervalle indiqué en paramètre. Les paramètres pMinimun et pMaximum doiventêtre compris dans l'intervalle des propriétés Minimum et Maximum. vsiNombre. <RandomizeValue2/> Ayant le VisualInt nommé vsiNombre, un nombre entre 2 et 15 inclusivement est généré et assigné à la propriété Value de vsiNombre. |
+
+<DocCardList />
