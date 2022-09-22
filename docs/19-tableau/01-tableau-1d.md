@@ -36,8 +36,8 @@ Cette classe offre des méthodes pour la manipulation de tableaux à une dimensi
 
 | Méthode | Valeur <br/> de <br/> retour | Description |
 | :-----: | :--------------------------: | ----------- |
-| ![méthode](../_00-shared/_methode.png) Array.Sort(...) | `void` | Trie en ordre croissant les éléments du tableau fourni. <br/> Par exemple : <Sort/> |
-| ![méthode](../_00-shared/_methode.png) Array.Reverse(...) | `void` | Inverse les éléments du tableau fourni. Le premier devient le dernier, le deuxième devient l'avant-dernier, etc. <br/> Par exemple : <Reverse/> |
-| ![méthode](../_00-shared/_methode.png) Array.IndexOf(...) | `int` | Recherche la valeur spécifiée et retourne l'index de la première occurence de cette valeur dans le tableau. Retourne **-1** si la valeur n'est pas trouvée. <br/> Par exemple : <IndexOf/> |
-| ![méthode](../_00-shared/_methode.png) Array.Clear(...) | `void` | Affecte à une plage d'éléments la valeur 0 pour un tableau d'entiers, à partir d'un index spécifié, pour un nombre d'éléments donné. <br/> Par exemple : <Clear/> |
-| ![méthode](../_00-shared/_methode.png) Array.Copy(...) | `void` | Copie, un certain nombre d'éléments d'un tableau vers un autre tableau, en commençant par le premier élément. <br/> Par exemple : <Copy/> |
+| ![méthode](../_00-shared/_methode.png) <br/> Array.Sort(...) | `void` | Trie en ordre croissant les éléments du tableau fourni. <br/> Par exemple : <Sort/> |
+| ![méthode](../_00-shared/_methode.png) <br/> Array.Reverse(...) | `void` | Inverse les éléments du tableau fourni. Le premier devient le dernier, le deuxième devient l'avant-dernier, etc. <br/> Par exemple : <Reverse/> |
+| ![méthode](../_00-shared/_methode.png) <br/> Array.IndexOf(...) | `int` | Recherche la valeur spécifiée et retourne l'index de la première occurence de cette valeur dans le tableau. Retourne **-1** si la valeur n'est pas trouvée. <br/> Par exemple : <IndexOf/> |
+| ![méthode](../_00-shared/_methode.png) <br/> Array.Clear(...) | `void` | Affecte à une plage d'éléments la valeur 0 pour un tableau d'entiers, à partir d'un index spécifié, pour un nombre d'éléments donné. <br/> Par exemple : <Clear/> |
+| ![méthode](../_00-shared/_methode.png) <br/> Array.Copy(...) | `void` | Copie, un certain nombre d'éléments d'un tableau vers un autre tableau, en commençant par le premier élément. <br/> Par exemple : <Copy/> |
