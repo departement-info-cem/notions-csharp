@@ -22,7 +22,7 @@ pointsEquipe = (cptPartiesGagnées * 5) + (cptPartiesPerdues * 3);
 
 ## Expression booléenne
 
-Une expression booléenne est une séquence d'opérateurs relationnels ou logiques, de variables et/ou de littéraux qui donne pour résultat une valeur booléenne `true` ou `false`. Elle est souvent utilisée dans les [structures de sélection](https://sites.google.com/site/notionscsharpcem/structure/if).
+Une expression booléenne est une séquence d'opérateurs relationnels ou logiques, de variables et/ou de littéraux qui donne pour résultat une valeur booléenne `true` ou `false`. Elle est souvent utilisée dans les [structures de sélection](./structures-de-controle/if).
 
 ```cs
 int  noteExamenIntra = 56;
