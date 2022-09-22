@@ -73,6 +73,12 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'bienDebuter',
+            label: 'Bien débuter',
+          },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/departement-info-cem/notions-csharp',
