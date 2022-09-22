@@ -1,0 +1,3 @@
+```cs
+vsiNombre.RandomizeValue();
+```
