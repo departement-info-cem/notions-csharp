@@ -15,7 +15,7 @@ public const string APP_INFO = " (Matériel)";
 devient
 
 ```cs
-public const string APP_INFO = " (Nom Prenom)";
+public const string APP_INFO = " (Brillant PierreOlivier)";
 ```
 
 :::tip Truc
