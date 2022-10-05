@@ -43,13 +43,6 @@ const config = {
             'https://github.com/departement-info-cem/notions-csharp/tree/main',
           sidebarCollapsed: false,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/departement-info-cem/notions-csharp/tree/main',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -69,7 +62,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'accueil',
+            docId: 'documentation/accueil',
             position: 'left',
             label: 'Documentation',
           },
@@ -79,7 +72,6 @@ const config = {
             sidebarId: 'bienDebuter',
             label: 'Bien débuter',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/departement-info-cem/notions-csharp',
             label: 'GitHub',
