@@ -1,7 +1,12 @@
+@echo off
+
 if not exist node_modules\ (
-    npm install
+    @echo Installation en cours...
+    call npm install>nul 2>&1
+    @echo Installation terminé.
 )
 
-npm run serve-examen -- --host %COMPUTERNAME%
+@echo Demarrage du serveur...
+call npm run serve-examen -- --host %COMPUTERNAME%>nul 2>&1
 
 PAUSE
