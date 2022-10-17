@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Opérateur
 
 ```mdx-code-block

@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Annexes
 
 ```mdx-code-block

@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # VisualCells
 
 import RandomizeValue1 from './_00-visual-cells/_randomize-value-1.md';

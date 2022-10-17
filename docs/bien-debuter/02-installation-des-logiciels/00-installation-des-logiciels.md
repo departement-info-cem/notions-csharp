@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Installation des logiciels
 
 import ReactPlayer from 'react-player'

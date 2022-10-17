@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # ListBox
 
 import Items from './_00-listbox/_items.md';

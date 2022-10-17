@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # GUI - contrôles
 
 ```mdx-code-block

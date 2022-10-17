@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # GUI - VisualArrays
 
 ```mdx-code-block

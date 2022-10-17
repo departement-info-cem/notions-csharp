@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Tableau
 
 ```mdx-code-block

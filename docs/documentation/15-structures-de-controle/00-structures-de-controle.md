@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Structures de contrôle
 
 ```mdx-code-block

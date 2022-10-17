@@ -1,3 +1,7 @@
+---
+slug: ./
+---
+
 # Identificateur
 
 Un **identificateur** sert à nommer des éléments du langage tels des variables, des constantes, des méthodes.
