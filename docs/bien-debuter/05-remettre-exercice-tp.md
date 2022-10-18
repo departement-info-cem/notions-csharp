@@ -35,7 +35,7 @@ Vous pourriez éventuellement perdre des points pour les travaux pratiques si ce
 - Fermez Visual Studio.
 - Si ce n'est pas déjà fait, renommez le répertoire qui se nomme "**Nom prenom [...] (Départ)**" pour votre nom et votre prénom et en retirant le "**(Départ)**".
 
-![Nom prénom](./_05-remettre-exercice-tp/nom-prenom.png)
+![Nom prénom](./_05-remettre-exercice-tp/_nom-prenom.png)
 
 :::caution Attention!
 
@@ -47,19 +47,19 @@ Vous pourriez éventuellement perdre des points pour les travaux pratiques si ce
 
 Compressez le répertoire nommé "**Nom prenom [...]**" à l'aide de 7-zip.
 
-![Compresser](_05-remettre-exercice-tp/compresser.png)
+![Compresser](_05-remettre-exercice-tp/_compresser.png)
 
 ## Effectuer une remise
 
 Sur Moodle, naviguez vers la page de remise du travail que vous souhaitez remettre.
 
-![Remise Moodle](_05-remettre-exercice-tp/remise-moodle.png)
+![Remise Moodle](_05-remettre-exercice-tp/_remise-moodle.png)
 
 - Glissez votre archive dans la zone de remise.
 - Cliquez sur le bouton "**Enregistrer**".
 
-![Remise fichier](_05-remettre-exercice-tp/remise-fichier.png)
+![Remise fichier](_05-remettre-exercice-tp/_remise-fichier.png)
 
 Assurez vous de voir la confirmation de votre remise. Vous devriez aussi recevoir un courriel vous confirmant que votre travail a bien été remis.
 
-![Confirmation remise](_05-remettre-exercice-tp/confirmation-remose.png)
+![Confirmation remise](_05-remettre-exercice-tp/_confirmation-remose.png)
