@@ -108,10 +108,10 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['csharp'],
       },
+      metadata: [{name: 'google-site-verification', content: '6txP2fROEPInDoupFmtfveVLa-llWrWZXzjNxWDJZq4'}],
       algolia: {
         // L'ID de l'application fourni par Algolia
         appId: 'GN4NP7F2WV',
-
         // Clé d'API publique : il est possible de la committer en toute sécurité
         apiKey: 'a5eea557b24fde9c79c8194d5a1e1337',
 
