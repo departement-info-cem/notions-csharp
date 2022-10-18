@@ -108,7 +108,6 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['csharp'],
       },
-      metadata: [{name: 'google-site-verification', content: '6txP2fROEPInDoupFmtfveVLa-llWrWZXzjNxWDJZq4'}],
       algolia: {
         // L'ID de l'application fourni par Algolia
         appId: 'GN4NP7F2WV',
@@ -124,7 +123,8 @@ const config = {
         searchPagePath: 'search',
       },
       metadata: [
-        {name: "keywords", content : 'notions, c#, programmation 1, informatique, technique, cégep, cegep, édouard-montpetit, edouard-montpetit, édouard montpetit, edouard montpetit'}
+        {name: "keywords", content : 'notions, c#, programmation 1, informatique, technique, cégep, cegep, édouard-montpetit, edouard-montpetit, édouard montpetit, edouard montpetit'},
+        {name: 'google-site-verification', content: '6txP2fROEPInDoupFmtfveVLa-llWrWZXzjNxWDJZq4'}
       ],
     }),
 };
