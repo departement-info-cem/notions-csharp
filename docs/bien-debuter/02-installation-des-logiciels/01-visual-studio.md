@@ -20,11 +20,17 @@ L'identifiant du compte Microsoft du CÉGEP ressemble à `matricule@cegepmontpet
 
 ## Activer la license étudiante
 
-Naviguez vers les page d'activation de la license étudiante de **[Microsoft Azure](https://azure.microsoft.com/fr-ca/free/students/)** et cliquez sur démarrer.
+Naviguez vers les page d'activation de la license étudiante de **[Microsoft Azure](https://azure.microsoft.com/fr-ca/free/students/)** et cliquez sur **Démarrer gratuitement**.
 
 ![Azure pour étudiants](./_01-visual-studio/_azure-etudiants.png)
 
-Cliquez sur le bouton **Démarrer gratuitement** et complétez les étapes demandées. Il est possible qu'un numéro de téléphone vous soit demandé.
+Entrez votre numéro de téléphone personnel ou résidentiel, puis cliquez sur le bouton bleu qui vous convient le mieux. Suivez les instructions que vous recevrez par téléphone ou SMS.
+
+![telephone](_01-visual-studio/_telephone.png)
+
+Remplissez le formulaire. Vous devez utiliser votre adresse courriel du CÉGEP lorsqu'on vous demande votre adresse e-mail.
+
+![forumlaire](_01-visual-studio/_formulaire.png)
 
 ## Télécharger l'installateur
 
