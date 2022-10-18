@@ -124,7 +124,7 @@ const config = {
       },
       metadata: [
         {name: "keywords", content : 'notions, c#, programmation 1, informatique, technique, cégep, cegep, édouard-montpetit, edouard-montpetit, édouard montpetit, edouard montpetit'},
-        {name: 'google-site-verification', content: '6txP2fROEPInDoupFmtfveVLa-llWrWZXzjNxWDJZq4'}
+        {name: 'google-site-verification', content: 'xIpGUaAZjgCmhhw_CDxxJ0uqHWnYXg7w58njMQQU0c0'}
       ],
     }),
 };
