@@ -2,7 +2,7 @@
 
 ## Problème
 
-Lors de la première exécution d'un projet, il est possble que le message d'erreur suivant s'affiche.
+Lors de la première exécution d'un projet, il est possible que le message d'erreur suivant s'affiche.
 
 ```
 Impossible de traiter le fichier FrmPrincipal.resx car il se trouve dans la zone Internet ou Restreinte ou il contient Mark of the Web. Pour traiter ces fichiers, supprimez Mark of the Web.
