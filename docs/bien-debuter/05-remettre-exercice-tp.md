@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Remettre ses exercices ou ses travaux pratiques
+# Remettre du matériel
 
 ## Renommer dans Visual Studio
 
