@@ -4,27 +4,8 @@ slug: /bien-debuter
 
 # Bien débuter
 
-## Installer les logiciels
+Bienvenu dans le premier cours de programmation de votre parcours en informatique!
 
-- VisualStudio
-- 7zip
+Dans les premiers cours, plusieurs instructions vous seront données par vos enseignants afin de commencer à travailler sur les exercices, travaux pratiques et examens. Vu toutes les informations que vous recevrez dans les premières semaines, c'est normal que vous en oubliez des morceaux. C'est pourquoi, pour vous aider à vous y retrouver (et à prendre de bonnes habitudes pour le reste de vos études), un guide pour bien débuter est disponible. Nous vous recommandons d'y jeter un coup d'oeil dès la première semaine, et de vous y référer au besoin.
 
-## Problèmes fréquents
-
-- resx, mark of the web
-- impossible de copier sur bin/debug
-
-### erreur de compilation
-
-- caractère manquant : ';', ')'
-- bracket manquante
-
-## Travailler sur un projet
-
-- dézipper
-- espace labo
-- ouvrir le sln
-
-## Remettre un projet
-
-
+Bonne session!
