@@ -14,16 +14,11 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'departement-info-cem', // Usually your GitHub org/user name.
-  projectName: 'notions-csharp', // Usually your repo name.
+  organizationName: 'departement-info-cem',
+  projectName: 'notions-csharp',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr'],
@@ -37,8 +32,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/departement-info-cem/notions-csharp/tree/main',
           sidebarCollapsed: false,
@@ -104,17 +97,10 @@ const config = {
         additionalLanguages: ['csharp'],
       },
       algolia: {
-        // L'ID de l'application fourni par Algolia
         appId: 'GN4NP7F2WV',
-        // Clé d'API publique : il est possible de la committer en toute sécurité
         apiKey: 'a5eea557b24fde9c79c8194d5a1e1337',
-
         indexName: 'cegepmontpetit',
-
-        // Facultatif : voir la section doc ci-dessous
         contextualSearch: true,
-
-        // Facultatif : chemin pour la page de recherche qui est activée par défaut (`false` pour le désactiver)
         searchPagePath: 'search',
       },
       metadata: [
