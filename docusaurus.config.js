@@ -77,6 +77,10 @@ const config = {
                 label: 'Documentation',
                 to: '/',
               },
+              {
+                label: 'Bien débuter',
+                to: '/bien-debuter'
+              },
             ],
           },
           {
