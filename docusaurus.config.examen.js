@@ -18,9 +18,6 @@ const config = {
 
   plugins: [require.resolve('docusaurus-lunr-search')],
   
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr'],
@@ -34,8 +31,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           sidebarCollapsed: false,
         },
         theme: {
