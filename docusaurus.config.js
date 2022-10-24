@@ -72,11 +72,6 @@ const config = {
             sidebarId: 'bienDebuter',
             label: 'Bien débuter',
           },
-          {
-            href: 'https://github.com/departement-info-cem/notions-csharp',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
