@@ -55,7 +55,13 @@ const config = {
             docId: 'documentation/accueil',
             position: 'left',
             label: 'Documentation',
-          }
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'examens',
+            label: 'Examens',
+          },
         ],
       },
       footer: {

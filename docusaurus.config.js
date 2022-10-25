@@ -65,6 +65,12 @@ const config = {
             sidebarId: 'bienDebuter',
             label: 'Bien débuter',
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'examens',
+            label: 'Examens',
+          },
         ],
       },
       footer: {
