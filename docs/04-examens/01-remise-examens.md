@@ -1,5 +1,5 @@
 ---
-slug: /remise-examen
+slug: /examens
 ---
 
 # Remise d'examens
