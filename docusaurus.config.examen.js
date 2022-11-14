@@ -59,6 +59,12 @@ const config = {
           {
             type: 'docSidebar',
             position: 'left',
+            sidebarId: 'visualArrays',
+            label: 'Visual Arrays',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
             sidebarId: 'examens',
             label: 'Examens',
           },
@@ -73,6 +79,14 @@ const config = {
               {
                 label: 'Documentation',
                 to: '/',
+              },
+              {
+                label: 'Examens',
+                to: '/examens'
+              },
+              {
+                label: 'Visual Arrays',
+                to: '/visual-arrays'
               },
             ],
           },

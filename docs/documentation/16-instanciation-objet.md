@@ -61,20 +61,20 @@ La bibliothèque peut être visualisée grâce à l'explorateur d'objets de Visu
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriété](./_00-shared/_propriete.png) Duree | `int` | Obtient la durée totale des pistes du disque en secondes. <br/> Exemple : `int dureeDisque = objDisqueCourant.Duree` |
-| ![propriété](./_00-shared/_propriete.png) Genre | `StyleMusique` | Obtient le genre de musique du disque. <br/> Les styles de musique sont définis par l'énumération `StyleMusique` : <br/> Classique, Country, Danse, Jazz, Pop, Rap et Rock.
-| ![propriété](./_00-shared/_propriete.png) Pistes | `Collection` | Obtient un objet représentant la collection des items "Pistes" contenus dans un disque. <br/> Chaque item est un entier représentant la durée en secondes d'une piste. <br/> Pour accéder à un item particulier de cette collection, un index est utilisé. <br/> Exemple : `int dureePisteIndexTrois = objDisqueCourant.Pistes[3];` |
-| ![propriété](./_00-shared/_propriete.png) Pistes.Count | `int` | Obtient le nombre d'items "pistes" de la collection Pistes du disque. <br/> Exemple : `int cptPistes = objDisqueCourant.Pistes.Count;` |
+| ![propriété](../_00-shared/_propriete.png) Duree | `int` | Obtient la durée totale des pistes du disque en secondes. <br/> Exemple : `int dureeDisque = objDisqueCourant.Duree` |
+| ![propriété](../_00-shared/_propriete.png) Genre | `StyleMusique` | Obtient le genre de musique du disque. <br/> Les styles de musique sont définis par l'énumération `StyleMusique` : <br/> Classique, Country, Danse, Jazz, Pop, Rap et Rock.
+| ![propriété](../_00-shared/_propriete.png) Pistes | `Collection` | Obtient un objet représentant la collection des items "Pistes" contenus dans un disque. <br/> Chaque item est un entier représentant la durée en secondes d'une piste. <br/> Pour accéder à un item particulier de cette collection, un index est utilisé. <br/> Exemple : `int dureePisteIndexTrois = objDisqueCourant.Pistes[3];` |
+| ![propriété](../_00-shared/_propriete.png) Pistes.Count | `int` | Obtient le nombre d'items "pistes" de la collection Pistes du disque. <br/> Exemple : `int cptPistes = objDisqueCourant.Pistes.Count;` |
 
 | Constructeur | Description |
 | :----------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) DisqueCompact() | Instancie un objet de type DisqueCompact où toutes les valeurs des propriétés sont assignées aléatoirement : le nombre de pistes, leur durée et le genre de musique. <br/> Exemple : `DisqueCompact objDC1 = new DisqueCompact();` |
-| ![méthode](./_00-shared/_methode.png) DisqueCompact(IntroObjets.SorteDeDisque) | Instancie un objet de type DisqueCompact dont la sorte de disque est indiquée en paramètre. <br/> <br/> Les sortes de disques sont définies par l'énumération SorteDeDisque : <br/> **Normal** : le nombre de pistes, les durées des pistes et le genre sont aléatoires. Exemple : `DisqueCompact objDC2 = new DisqueCompact(SorteDeDisque.Normal);` <br/> <br/> **Test1** : Un disque à 2 pistes : la 1ère piste de 59 secondes et la 2e de 5 minutes 1 seconde pour une durée totale de 360 secondes (6 minutes). Le genre est aléatoire. <br/> <br/> **Test2** : Un disque à 8 pistes de 5 minutes, pour une durée totale de 2400 secondes (40 minutes). Le genre est aléatoire. <br/> **Test3** : Un disque à 12 pistes d'une durée totale de 2880 secondes (48 minutes). La durée des pistes alterne entre 3:59 et 4.01. Le genre est aléatoire. |
+| ![méthode](../_00-shared/_methode.png) DisqueCompact() | Instancie un objet de type DisqueCompact où toutes les valeurs des propriétés sont assignées aléatoirement : le nombre de pistes, leur durée et le genre de musique. <br/> Exemple : `DisqueCompact objDC1 = new DisqueCompact();` |
+| ![méthode](../_00-shared/_methode.png) DisqueCompact(IntroObjets.SorteDeDisque) | Instancie un objet de type DisqueCompact dont la sorte de disque est indiquée en paramètre. <br/> <br/> Les sortes de disques sont définies par l'énumération SorteDeDisque : <br/> **Normal** : le nombre de pistes, les durées des pistes et le genre sont aléatoires. Exemple : `DisqueCompact objDC2 = new DisqueCompact(SorteDeDisque.Normal);` <br/> <br/> **Test1** : Un disque à 2 pistes : la 1ère piste de 59 secondes et la 2e de 5 minutes 1 seconde pour une durée totale de 360 secondes (6 minutes). Le genre est aléatoire. <br/> <br/> **Test2** : Un disque à 8 pistes de 5 minutes, pour une durée totale de 2400 secondes (40 minutes). Le genre est aléatoire. <br/> **Test3** : Un disque à 12 pistes d'une durée totale de 2880 secondes (48 minutes). La durée des pistes alterne entre 3:59 et 4.01. Le genre est aléatoire. |
 
 | Méthode statique | Description |
 | :--------------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) FormatHHMMSS(int pDuree) | Retourne une durée en secondes dans une chaîne selon le format "HH:MM:SS". <br/> Exemple : `DisqueCompact.FormatHHMMSS(objDisque.Duree)`
-| ![méthode](./_00-shared/_methode.png) FormatMMSS(int pDuree) | Retourne une durée en secondes dans une chaîne selon le format "MM:SS". <br/> Exemple : `DisqueCompact.FormatMMSS(objDisque.Duree)` |
+| ![méthode](../_00-shared/_methode.png) FormatHHMMSS(int pDuree) | Retourne une durée en secondes dans une chaîne selon le format "HH:MM:SS". <br/> Exemple : `DisqueCompact.FormatHHMMSS(objDisque.Duree)`
+| ![méthode](../_00-shared/_methode.png) FormatMMSS(int pDuree) | Retourne une durée en secondes dans une chaîne selon le format "MM:SS". <br/> Exemple : `DisqueCompact.FormatMMSS(objDisque.Duree)` |
 
 | Exemple #1 : Instancier un disque normal et afficher les informations sur le disque. | Résultats |
 | ------------------------------------------------------------------------------------ | --------- |

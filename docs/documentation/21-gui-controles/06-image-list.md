@@ -10,8 +10,8 @@ Le composant ImageList gère une collection d'images qui sont généralement uti
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriété](../_00-shared/_propriete.png) <br/> (Name) | | Nom utilisé dans le code pour identifier l’objet. Préfixe : `iml` Exemple : `imlDes` |
-| ![propriété](../_00-shared/_propriete.png) <br/> Images | (`Collection`) | Contient les images stockées dans la liste. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> (Name) | | Nom utilisé dans le code pour identifier l’objet. Préfixe : `iml` Exemple : `imlDes` |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Images | (`Collection`) | Contient les images stockées dans la liste. |
 
 
 L'éditeur de collections Images permet de gérer les images contenues dans la collection.

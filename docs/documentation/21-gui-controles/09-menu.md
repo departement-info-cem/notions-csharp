@@ -15,14 +15,14 @@ Le menu principal `mnuPrincipal` suivant contient deux sous-menus: `mnuFichier` 
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriété](../_00-shared/_propriete.png) <br/> (Name) | | Le nom utilisé dans le code pour identifier l’objet. Préfixe : `mnu` Exemples: `mnuPrincipal`, `mnuFichier`, `mnuFichierQuitter` |
-| ![propriété](../_00-shared/_propriete.png) <br/> Text | `string` | Le texte apparaissant dans la barre des menus. Exemple : "Beige". |
-| ![propriété](../_00-shared/_propriete.png) <br/> Shortcutkey | | La touche de raccourci clavier associée au menu. Exemple: Ctrl + B |
-| ![propriété](../_00-shared/_propriete.png) <br/> Checked | `bool` | Obtient ou définit une valeur indiquant si le menu est coché ou non. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> (Name) | | Le nom utilisé dans le code pour identifier l’objet. Préfixe : `mnu` Exemples: `mnuPrincipal`, `mnuFichier`, `mnuFichierQuitter` |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Text | `string` | Le texte apparaissant dans la barre des menus. Exemple : "Beige". |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Shortcutkey | | La touche de raccourci clavier associée au menu. Exemple: Ctrl + B |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Checked | `bool` | Obtient ou définit une valeur indiquant si le menu est coché ou non. |
 
 | Événement | Description |
 | :-------: | ----------- |
-| ![propriété](../_00-shared/_evenement.png) <br/> Click | Se produit lorsque l'utilisateur clique sur le menu. |
+| ![propriété](../../_00-shared/_evenement.png) <br/> Click | Se produit lorsque l'utilisateur clique sur le menu. |
 
 ## Exemple #1 : Décocher la collection des items du menu Couleurs
 

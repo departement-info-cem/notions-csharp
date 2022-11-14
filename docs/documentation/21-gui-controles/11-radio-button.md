@@ -18,13 +18,13 @@ Le bouton radio est souvent utilisé de deux façons :
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriété](../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objet. Préfixe : `rad` exemple : `radLivraisonNormale` |
-| ![propriété](../_00-shared/_propriete.png) <br/> Enabled | `bool` | Obtient ou définit une valeur indiquant si le contrôle est activé ou non. |
-| ![propriété](../_00-shared/_propriete.png) <br/> Visible | `bool` | Obtient ou définit une valeur indiquant si le contrôle est visible ou non. |
-| ![propriété](../_00-shared/_propriete.png) <br/> Text | `string` | Obtient ou définit le libellé affiché à côté du bouton radio pour en indiquer le rôle. |
-| ![propriété](../_00-shared/_propriete.png) <br/> TextAlign | | Indique la façon dont le texte est aligné dans le contrôle. |
-| ![propriété](../_00-shared/_propriete.png) <br/> Checked | `bool` | Obtient ou définit une valeur indiquant si le bouton radio est sélectionné ou non. Exemples : <br/> Définit l'état d'un bouton. <Checked1/> Obtient l'état du bouton. <Checked2/> |
+| ![propriété](../../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objet. Préfixe : `rad` exemple : `radLivraisonNormale` |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Enabled | `bool` | Obtient ou définit une valeur indiquant si le contrôle est activé ou non. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Visible | `bool` | Obtient ou définit une valeur indiquant si le contrôle est visible ou non. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Text | `string` | Obtient ou définit le libellé affiché à côté du bouton radio pour en indiquer le rôle. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> TextAlign | | Indique la façon dont le texte est aligné dans le contrôle. |
+| ![propriété](../../_00-shared/_propriete.png) <br/> Checked | `bool` | Obtient ou définit une valeur indiquant si le bouton radio est sélectionné ou non. Exemples : <br/> Définit l'état d'un bouton. <Checked1/> Obtient l'état du bouton. <Checked2/> |
 
 | Événement | Description |
 | :-------: | ----------- |
-| ![propriété](../_00-shared/_evenement.png) <br/> CheckedChanged | Se produit chaque fois que la propriété Checked est modifiée. |
+| ![propriété](../../_00-shared/_evenement.png) <br/> CheckedChanged | Se produit chaque fois que la propriété Checked est modifiée. |

@@ -31,12 +31,12 @@ Pour plus d'informations, consultez la [liste complète des méthodes de la clas
 
 | Méthode | Description | Supposons les déclarations suivantes : <HeaderExemple/> | Résultats |
 | :-----: | ----------- | --- | :---: |
-| ![méthode](../_00-shared/_methode.png) <br/> Abs | Retourne la valeur absolue du nombre spécifié. | <ExempleAbs/> | 12,45 <br/> <br/> 12,45 |
-| ![méthode](../_00-shared/_methode.png) <br/> Ceiling | Retourne le plus petit nombre entiersupérieur ou égal au nombre spécifié. | <ExempleCeiling/> | 10 <br/> <br/> -9 |
-| ![méthode](../_00-shared/_methode.png) <br/> Floor | Retourne le plus grand nombre entier inférieur ou égal au nombre spécifié. | <ExempleFloor/> | 12 <br/> <br/> -13 |
-| ![méthode](../_00-shared/_methode.png) <br/> Max | Retourne le plus grand de deux nombres spécifiés. | <ExempleMax/> | 98 <br/> <br/> 14,56 |
-| ![méthode](../_00-shared/_methode.png) <br/> Min | Retourne le plus petit de deux nombres spécifiés. | <ExempleMin/> | 78 |
-| ![méthode](../_00-shared/_methode.png) <br/> Pow | Retourne le résultat du nombre spécifié élevé à la puissance spécifiée. | <ExemplePow/> | 32 |
-| ![méthode](../_00-shared/_methode.png) <br/> Round | Retourne le nombre le plus proche de la valeur spécifiée.On peut arrondir au nombre de décimales spécifié. | <ExempleRound/> | 23,55 <br/> <br/> 24 |
-| ![méthode](../_00-shared/_methode.png) <br/> Sign | Retourne une valeur indiquant le signe du nombre spécifié: <br/> -1 si le nombre est négatif, <br/> 0 si le nombre est nul, <br/> 1 si le nombre est positif. | <ExempleSign/> | -1 |
-| ![méthode](../_00-shared/_methode.png) <br/> Truncate | Retourne la partie entière du nombre spécifié. | <ExempleTruncate/> | 12 <br/> <br/> -12 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Abs | Retourne la valeur absolue du nombre spécifié. | <ExempleAbs/> | 12,45 <br/> <br/> 12,45 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Ceiling | Retourne le plus petit nombre entiersupérieur ou égal au nombre spécifié. | <ExempleCeiling/> | 10 <br/> <br/> -9 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Floor | Retourne le plus grand nombre entier inférieur ou égal au nombre spécifié. | <ExempleFloor/> | 12 <br/> <br/> -13 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Max | Retourne le plus grand de deux nombres spécifiés. | <ExempleMax/> | 98 <br/> <br/> 14,56 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Min | Retourne le plus petit de deux nombres spécifiés. | <ExempleMin/> | 78 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Pow | Retourne le résultat du nombre spécifié élevé à la puissance spécifiée. | <ExemplePow/> | 32 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Round | Retourne le nombre le plus proche de la valeur spécifiée.On peut arrondir au nombre de décimales spécifié. | <ExempleRound/> | 23,55 <br/> <br/> 24 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Sign | Retourne une valeur indiquant le signe du nombre spécifié: <br/> -1 si le nombre est négatif, <br/> 0 si le nombre est nul, <br/> 1 si le nombre est positif. | <ExempleSign/> | -1 |
+| ![méthode](../../_00-shared/_methode.png) <br/> Truncate | Retourne la partie entière du nombre spécifié. | <ExempleTruncate/> | 12 <br/> <br/> -12 |

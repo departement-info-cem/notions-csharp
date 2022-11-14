@@ -1,5 +1,5 @@
 ---
-slug: ./
+slug: /visual-arrays
 ---
 
 # GUI - VisualArrays

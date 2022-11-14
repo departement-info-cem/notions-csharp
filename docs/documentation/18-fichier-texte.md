@@ -34,39 +34,39 @@ Ces deux classes offrent des méthodes pour la manipulation de fichiers et de r�
 
 | Méthode | Valeur <br/> de <br/> retour | Description |
 | :-----: | :--------------------------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) File.Exists(string path) | `bool` | Détermine si le fichier spécifié existe ou non sur le disque. <FileExists/> |
-| ![méthode](./_00-shared/_methode.png) Directory.Exists(string path) | `bool` | Détermine si le chemin d'accès spécifié réfère à un répertoire existant sur le disque. <DirectoryExists/> |
-| ![méthode](./_00-shared/_methode.png) Directory.GetFiles(string path) | `string [ ]` | Retourne dans un tableau de chaines, le nom complet des fichiers contenus dans le répertoire spécifié. <DirectoryGetFiles1/> Si le répertoire ventes contient les 3 fichiers : `janvier.txt`, `fevrier.txt`, `mars.txt` le tableau contiendra les chaines suivantes : <DirectoryGetFiles2/> |
-| ![méthode](./_00-shared/_methode.png) Directory.SetCurrentDirectory (string path) | | Définit le répertoire de travail actif de l'application avec le répertoire spécifié. <DirectorySetCurrentDirectory/> Le répertoire "Catégories" est placé dans le projet sous le répertoire `bin\debug`.
+| ![méthode](../_00-shared/_methode.png) File.Exists(string path) | `bool` | Détermine si le fichier spécifié existe ou non sur le disque. <FileExists/> |
+| ![méthode](../_00-shared/_methode.png) Directory.Exists(string path) | `bool` | Détermine si le chemin d'accès spécifié réfère à un répertoire existant sur le disque. <DirectoryExists/> |
+| ![méthode](../_00-shared/_methode.png) Directory.GetFiles(string path) | `string [ ]` | Retourne dans un tableau de chaines, le nom complet des fichiers contenus dans le répertoire spécifié. <DirectoryGetFiles1/> Si le répertoire ventes contient les 3 fichiers : `janvier.txt`, `fevrier.txt`, `mars.txt` le tableau contiendra les chaines suivantes : <DirectoryGetFiles2/> |
+| ![méthode](../_00-shared/_methode.png) Directory.SetCurrentDirectory (string path) | | Définit le répertoire de travail actif de l'application avec le répertoire spécifié. <DirectorySetCurrentDirectory/> Le répertoire "Catégories" est placé dans le projet sous le répertoire `bin\debug`.
 
 ## La classe StreamReader : lecture dans un fichier texte
 
 | Constructeur | Description |
 | :----------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) StreamReader(string pNomFichier) | Initialise une instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Lecture**, et le pointeur de lecture au début du fichier est positionné au début du fichier. <StreamReader/> Si le fichier spécifié n'existe pas, l'exception FileNotFoundException est levée. Pour éviter cette erreur, il faut vérifier l'existence avec la méthode File.Exists("ventes.txt"). |
+| ![méthode](../_00-shared/_methode.png) StreamReader(string pNomFichier) | Initialise une instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Lecture**, et le pointeur de lecture au début du fichier est positionné au début du fichier. <StreamReader/> Si le fichier spécifié n'existe pas, l'exception FileNotFoundException est levée. Pour éviter cette erreur, il faut vérifier l'existence avec la méthode File.Exists("ventes.txt"). |
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriété](./_00-shared/_propriete.png) EndOfStream | `bool` | Obtient une valeur indiquant si la position actuelle du pointeur de lecture se trouve à la fin du fichier, c'est-à-dire sur le code de Fin de fichier. <EndOfStream/> |
+| ![propriété](../_00-shared/_propriete.png) EndOfStream | `bool` | Obtient une valeur indiquant si la position actuelle du pointeur de lecture se trouve à la fin du fichier, c'est-à-dire sur le code de Fin de fichier. <EndOfStream/> |
 
 | Méthode | Valeur <br/> de <br/> retour | Description |
 | :-----: | :--------------------------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) ReadLine() | `string` | Retourne les caractères lus à partir du début de la ligne actuelle jusqu'au code de *Fin de ligne* (Return). <br/> Après la lecture de la ligne, le pointeur de lecture se trouve au début de la prochaine ligne à lire. <ReadLine/> |
-| ![méthode](./_00-shared/_methode.png) ReadToEnd() | `string` | Retourne les caractères lus de la position actuelle du pointeur jusqu'au code de *Fin de fichier*. Après la lecture, le pointeur se trouve sur le code de *Fin de fichier*. <ReadToEnd/> |
-| ![méthode](./_00-shared/_methode.png) Close() | `void` | Ferme l'objet StreamReader et le flux d'entrée sous-jacent et libère les ressources. <Close1/> Lors de la création de l'objet de lecture, si on inclut using, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close2/> |
+| ![méthode](../_00-shared/_methode.png) ReadLine() | `string` | Retourne les caractères lus à partir du début de la ligne actuelle jusqu'au code de *Fin de ligne* (Return). <br/> Après la lecture de la ligne, le pointeur de lecture se trouve au début de la prochaine ligne à lire. <ReadLine/> |
+| ![méthode](../_00-shared/_methode.png) ReadToEnd() | `string` | Retourne les caractères lus de la position actuelle du pointeur jusqu'au code de *Fin de fichier*. Après la lecture, le pointeur se trouve sur le code de *Fin de fichier*. <ReadToEnd/> |
+| ![méthode](../_00-shared/_methode.png) Close() | `void` | Ferme l'objet StreamReader et le flux d'entrée sous-jacent et libère les ressources. <Close1/> Lors de la création de l'objet de lecture, si on inclut using, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close2/> |
 
 ## La classe StreamWriter : écriture dans un fichier texte
 
 | Constructeur | Description |
 | :----------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) StreamWriter(string pNomFichier) | Initialise une instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Écriture** et le pointeur de lecture au début du fichier est positionné au début du fichier. Si le fichier n'existe pas, il est créé. <StreamWriter1/> |
-| ![méthode](./_00-shared/_methode.png) StreamWriter(string pNomFichier, bool pAppend) | Initialise une nouvelle instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Append** (Ajout) si le 2e paramètre est `true`. Dans ce mode, si le fichier n'existe pas, il est créé et le pointeur de lecture est placé au début du ficher mais s'il existe, le pointeur est placé à la fin du fichier. <StreamWriter2/> |
+| ![méthode](../_00-shared/_methode.png) StreamWriter(string pNomFichier) | Initialise une instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Écriture** et le pointeur de lecture au début du fichier est positionné au début du fichier. Si le fichier n'existe pas, il est créé. <StreamWriter1/> |
+| ![méthode](../_00-shared/_methode.png) StreamWriter(string pNomFichier, bool pAppend) | Initialise une nouvelle instance de la classe pour le nom de fichier spécifié en paramètre. Le fichier est ouvert en mode **Append** (Ajout) si le 2e paramètre est `true`. Dans ce mode, si le fichier n'existe pas, il est créé et le pointeur de lecture est placé au début du ficher mais s'il existe, le pointeur est placé à la fin du fichier. <StreamWriter2/> |
 
 | Méthode | Valeur <br/> de <br/> retour | Description |
 | :-----: | :--------------------------: | ----------- |
-| ![méthode](./_00-shared/_methode.png) WriteLine(string pChaine) | `void` | Écrit à la position du pointeur de lecture le paramètre pChaine, suivie du code de Fin de ligne. <WriteLine/> |
-| ![méthode](./_00-shared/_methode.png) Write(string pChaine) | `void` | Écrit à la position du pointeur de lecture, le paramètre pChaine. <Write/> Ligne obtenue dans le fichier : `Bonne journée`. |
-| ![méthode](./_00-shared/_methode.png) Close() | `void` | Ferme l'objet StreamWriter et le flux de sortie sous-jacent et libère les ressources du fichier <Close3/> Lors de la création de l'objet d'écriture, si on inclut `using`, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close4/> |
+| ![méthode](../_00-shared/_methode.png) WriteLine(string pChaine) | `void` | Écrit à la position du pointeur de lecture le paramètre pChaine, suivie du code de Fin de ligne. <WriteLine/> |
+| ![méthode](../_00-shared/_methode.png) Write(string pChaine) | `void` | Écrit à la position du pointeur de lecture, le paramètre pChaine. <Write/> Ligne obtenue dans le fichier : `Bonne journée`. |
+| ![méthode](../_00-shared/_methode.png) Close() | `void` | Ferme l'objet StreamWriter et le flux de sortie sous-jacent et libère les ressources du fichier <Close3/> Lors de la création de l'objet d'écriture, si on inclut `using`, les ressources sont libérées et il n'est pas nécessaire de fermer l'objet de lecture avec .Close() <Close4/> |
  
 ## Exemple : Lecture d'un fichier nommé "Autos.txt" pour afficher son contenu sur la console.
 

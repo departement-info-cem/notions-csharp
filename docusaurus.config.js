@@ -66,6 +66,12 @@ const config = {
           {
             type: 'docSidebar',
             position: 'left',
+            sidebarId: 'visualArrays',
+            label: 'Visual Arrays',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
             sidebarId: 'bienDebuter',
             label: 'Bien débuter',
           },
@@ -88,8 +94,16 @@ const config = {
                 to: '/',
               },
               {
+                label: 'Visual Arrays',
+                to: '/visual-arrays'
+              },
+              {
                 label: 'Bien débuter',
                 to: '/bien-debuter'
+              },
+              {
+                label: 'Examens',
+                to: '/examens'
               },
             ],
           },
