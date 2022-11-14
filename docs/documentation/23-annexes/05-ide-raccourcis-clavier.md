@@ -35,3 +35,4 @@ Pour plus d'informations, consultez la [liste complète des raccourcis clavier p
 | **Ctrl + R , A** | Effectuer tous les tests de la solution. |
 | **Ctrl + K , Ctrl+ F** | Mettre en forme la sélection actuelle : alignement des accolades, etc. |
 | **Ctrl + K , Ctrl + D** | Mettre en forme tout le document : alignement des accolades, etc. |
+| **Ctrl + R , Ctrl + R** | Renommer toutes les occurences d'une variable locale. |
