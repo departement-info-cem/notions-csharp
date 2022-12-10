@@ -50,5 +50,6 @@ L'exécution de cette commande pourrait prendre quelques minutes. Ne fermez jama
 
 ### 3. Partager le lien aux étudiants
 
-- Une fois que le démarrage est complété, une page web devrait s'ouvrir. L'URL devrait ressembler à quelque chose comme `http://NOM-DE-VOTRE-POSTE/notions-csharp/`. 
-- Partagez cet URL avec les étudiants, avec la fonction messages de NetSchool par exemple.
+- Une fois que le démarrage est complété, une page web devrait s'ouvrir. L'URL devrait ressembler à quelque chose comme `http://NOM-DE-VOTRE-POSTE/notions-csharp/`.
+- Un raccourci nommé Notions C#.url a aussi été généré.
+- Partagez le raccourci avec les étudiants, avec NetSchool par exemple.
