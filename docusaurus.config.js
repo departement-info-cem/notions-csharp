@@ -127,7 +127,7 @@ const config = {
       algolia: {
         appId: 'GN4NP7F2WV',
         apiKey: 'a5eea557b24fde9c79c8194d5a1e1337',
-        indexName: 'cegepmontpetit',
+        indexName: 'notions-csharp',
         contextualSearch: true,
         searchPagePath: 'search',
       },
