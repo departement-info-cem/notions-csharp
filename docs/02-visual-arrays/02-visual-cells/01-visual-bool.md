@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # VisualBool
 
-Un contrôle qui permet d'afficher une image selon la valeur `true` ou `false`. Propriétés et méthodes communes aux [VisualCells](https://sites.google.com/site/notionscsharpcem/gui---visualarrays/visualcells).
+Un contrôle qui permet d'afficher une image selon la valeur `true` ou `false`. Propriétés et méthodes communes aux [VisualCells](https://info.cegepmontpetit.ca/notions-csharp/visual-arrays/visual-cells).
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |

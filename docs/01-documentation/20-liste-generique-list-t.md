@@ -15,7 +15,7 @@ import Remove from './_20-liste-generique-list-t/_remove.md';
 import RemoveAt from './_20-liste-generique-list-t/_removeat.md';
 import Sort from './_20-liste-generique-list-t/_sort.md';
 
-Une liste générique List &ltT&gt est une liste dynamique fortement typée d'objets accessibles par un index. Elle fournit des méthodes de recherche, de tri et de manipulation de listes. La taille de la liste augmente dynamiquement selon les besoins.
+Une liste générique List &lt;T&gt; est une liste dynamique fortement typée d'objets accessibles par un index. Elle fournit des méthodes de recherche, de tri et de manipulation de listes. La taille de la liste augmente dynamiquement selon les besoins.
 
 ## Déclaration de liste générique
 
@@ -25,13 +25,13 @@ List<type> nomCollection = new List<type>();
 
 | Constructeur | Description |
 | :----------: | ----------- |
-| ![méthode](../_00-shared/_methode.png) List&lt&gt() | Initialise une nouvelle instance de la classe List&ltT&gt qui est vide et a la capacité initiale par défaut. |
-| ![méthode](../_00-shared/_methode.png) List&lt&gt(Int32) | Initialise une nouvelle instance de la classe List&ltT&gt qui est vide et a la capacité initiale spécifiée. |
+| ![méthode](../_00-shared/_methode.png) List&lt;&gt;() | Initialise une nouvelle instance de la classe List&lt;T&gt; qui est vide et a la capacité initiale par défaut. |
+| ![méthode](../_00-shared/_methode.png) List&lt;&gt;(Int32) | Initialise une nouvelle instance de la classe List&lt;T&gt; qui est vide et a la capacité initiale spécifiée. |
 
 | Propriété | Type <br/> de <br/> retour | Description |
 | :-------: | :------------------------: | ----------- |
 | ![propriété](../_00-shared/_propriete.png) Capacity | `int` | Obtient ou définit le nombre total des éléments que la structure de données interne peut contenir sans redimensionnement. |
-| ![propriété](../_00-shared/_propriete.png) Count | `int` | Obtient le nombre total des éléments réellement contenus dans List&ltT&gt. |
+| ![propriété](../_00-shared/_propriete.png) Count | `int` | Obtient le nombre total des éléments réellement contenus dans List&lt;T&gt;. |
 | ![propriété](../_00-shared/_propriete.png) Item | | Obtient ou définit l'élément situé à l'index spécifié. `int premierNombre = colNombres[0];` |
 
 Voici quelques méthodes. Consulter la [liste complète](http://msdn.microsoft.com/fr-fr/library/6sh2ey19%28v=VS.95%29.aspx) sur MSDN.

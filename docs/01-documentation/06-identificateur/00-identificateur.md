@@ -15,7 +15,7 @@ Des standards d'écriture pour les noms des identificateurs sont définis afin d
 - Caractère espace est interdit
 - Casse (minuscule et majuscule) est prise en compte
     Exemple : **`Taux`** et  **`taux`** sont 2 identificateurs différents
-- [Mots réservés](https://sites.google.com/site/notionscsharpcem/identificateur/mots-reserves) ne peuvent être utilisés.
+- [Mots réservés](https://info.cegepmontpetit.ca/notions-csharp/documentation/identificateur/mots-reserves) ne peuvent être utilisés.
 
 ## Variable
 
@@ -38,5 +38,5 @@ Exemples: `EstPrésent`, `NbAbsences`
 ## Contrôle graphique (GUI)
 
 Première lettre du nom en minuscule et première lettre des autres mots en majuscule
-préfixe selon les [préfixes standards](https://sites.google.com/site/notionscsharpcem/prefixesetstandards) du cours.
+préfixe selon les [préfixes standards](https://info.cegepmontpetit.ca/notions-csharp/documentation/identificateur/prefixes-standards) du cours.
 Exemples: `txtPrenom`, `numCoutTotal`, `lblPrenom`, `btnCalculer`

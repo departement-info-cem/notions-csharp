@@ -40,7 +40,7 @@ Exemple :  char premiereLettre = uneChaine[0];
 
 | Propriété | Type | Description | Exemple | Résultat |
 | :-------: | ---- | ----------- | ------- | :------: |
-| ![propriété](../_00-shared/_propriete.png) <br/> Length | `int` | Obtient la longueur de la chaine. | <ExempleLength/> | 12 |
+| ![propriété](../_00-shared/_propriete.png) <br/> Length | `int` | Obtient la longueur de la chaine. | <ExempleLength/> | `12` |
 
 | Méthode | Valeur <br/> de <br/> retour | Description | Exemple | Résultat |
 | :-----: | :--------------------------: | ----------- | ------- | :------: |
@@ -49,12 +49,12 @@ Exemple :  char premiereLettre = uneChaine[0];
 | ![méthode](../_00-shared/_methode.png) <br/> LastIndexOf | `int` | Obtient l'index de la dernière sous-chaine. <br/> Si la sous-chaine n'existe pas, alors la méthode retournera **-1**. | <ExempleLastIndexOf/> | `9` <br/> <br/> <br/> `-1` |
 | ![méthode](../_00-shared/_methode.png) <br/> ToLower | `string` | Crée une nouvelle chaine en minuscules. | <ExempleToLower/> | `"bonjour toi!"`
 ![méthode](../_00-shared/_methode.png) <br/> ToUpper | `string` | Crée une nouvelle chaine en majuscules. | <ExempleToUpper/> | `"BONJOUR TOI"` |
-| ![méthode](../_00-shared/_methode.png) <br/> Trim | string | Enlève les espaces placés au début et à la fin de la chaine. | <ExempleTrim/> | "Allo toi!" |
+| ![méthode](../_00-shared/_methode.png) <br/> Trim | string | Enlève les espaces placés au début et à la fin de la chaine. | <ExempleTrim/> | `"Allo toi!"` |
 | ![méthode](../_00-shared/_methode.png) <br/> TrimEnd | `string` | Supprime de la chaine toutes les occurrences d'un caractère ou d'une sous-chaine située à la fin. | <ExempleTrimEnd/> | `"Allo toi"` |
 | ![méthode](../_00-shared/_methode.png) <br/> Insert | `string` | Insère une chaine dans une autre chaine. | <ExempleInsert/> | `"Bonjour à toi!"` |
 | ![méthode](../_00-shared/_methode.png) <br/> PadRight | `string` | Aligne les caractères de la  chaine à gauche et remplit à droite en ajoutant un caractère pour une longueur totale spécifiée. | <ExemplePadRight/> | `"Allo toi!!!!"` |
-| ![méthode](../_00-shared/_methode.png) <br/> Contains | `bool` | Indique si oui ou non une sous-chaine est contenue dans la chaine. | <ExempleContains/> | Oui |
-| ![méthode](../_00-shared/_methode.png) <br/> Split | `string []` | Retourne un tableau qui contient les sous-chaines délimitées par le caractère spécifié. | <ExempleSplit/> | Rosalie <br/> Clara <br/> Jeanne <br/> Louise |
+| ![méthode](../_00-shared/_methode.png) <br/> Contains | `bool` | Indique si oui ou non une sous-chaine est contenue dans la chaine. | <ExempleContains/> | `"Oui"` |
+| ![méthode](../_00-shared/_methode.png) <br/> Split | `string []` | Retourne un tableau qui contient les sous-chaines délimitées par le caractère spécifié. | <ExempleSplit/> | `Rosalie <br/> Clara <br/> Jeanne <br/> Louise` |
 
 ## Exemple #1
 
@@ -62,4 +62,4 @@ Parcourir une chaîne à l'aide d'un for afin de compter le nombre d'occurrences
 
 | | Résultats |
 | - | ------- |
-| <Exemple1/> | Nombre de n : 3 |
+| <Exemple1/> | `Nombre de n : 3` |

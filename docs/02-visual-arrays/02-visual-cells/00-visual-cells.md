@@ -21,7 +21,7 @@ Quatre types de Visual Cell sont disponibles.
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
-| ![propriete](../../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objetVoir la liste des préfixes dans les [standards](https://sites.google.com/site/notionscsharpcem/prefixesetstandards). |
+| ![propriete](../../_00-shared/_propriete.png) <br/> (Name) | | Indique le nom utilisé dans le code pour identifier l’objetVoir la liste des préfixes dans les [standards](https://info.cegepmontpetit.ca/notions-csharp/documentation/identificateur/prefixes-standards). |
 | ![propriete](../../_00-shared/_propriete.png) <br/> BackColor | | Obtient ou définit la couleur d'arrière plan de la cellule  vsiNombre.BackColor = Color.Blue; |
 | ![propriete](../../_00-shared/_propriete.png) <br/> Enabled | `bool` | Obtient ou définit une valeur indiquant si la cellule peut répondre à une action de l'utilisateur. |
 | ![propriete](../../_00-shared/_propriete.png) <br/> ReadOnly | `bool` | Indique si la cellule est en lecture seule. |

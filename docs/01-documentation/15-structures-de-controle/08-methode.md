@@ -58,7 +58,7 @@ Syntaxe :
 ///
 ///  commentaires XML
 ///
-accès void ou type de données nom de la méthode suivi des paramètres entre parenthèses)
+accès void ou type de données nom de la méthode (suivi des paramètres entre parenthèses)
 {
     bloc d'instructions;
 }

@@ -49,7 +49,7 @@ Pour un contrôle de type VisualInt nommé vsiPoints,
     la propriété Value du contrôle est augmentée de 100
         vsiPoints.Value +=100;
             
-    la propriété Value du contrôle vsiNbEssais vsiPoints reçoit la propriété Value du contrôle vsiNbEssais
+    la propriété Value du contrôle vsiPoints reçoit la propriété Value du contrôle vsiNbEssais
         vsiPoints.Value = vsiNbEssais.Value;
 
 :::

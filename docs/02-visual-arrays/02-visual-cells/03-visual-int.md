@@ -5,7 +5,7 @@ sidebar_position: 3
 # VisualInt
 
 Un contrôle qui permet à l'utilisateur de saisir un nombre entier.
-Propriétés et méthodes communes aux [VisualCells](https://sites.google.com/site/notionscsharpcem/gui---visualarrays/visualcells).
+Propriétés et méthodes communes aux [VisualCells](https://info.cegepmontpetit.ca/notions-csharp/visual-arrays/visual-cells).
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |
