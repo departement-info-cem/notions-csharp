@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Un contrôle de type VisualCharArray est une **grille** dont chaque cellule est un caractère.
 
-Pour les propriétés, les méthodes et le struct communs aux différents types de "VisualArrays", voir [BaseGrid](https://sites.google.com/site/notionscsharpcem/gui---visualarrays/basevisualarray)
+Pour les propriétés, les méthodes et le struct communs aux différents types de "VisualArrays", voir [BaseGrid](https://info.cegepmontpetit.ca/notions-csharp/visual-arrays/base-grid)
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |

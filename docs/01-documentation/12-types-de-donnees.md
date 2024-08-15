@@ -8,7 +8,7 @@ sidebar_position: 12
 
 Les types de données par valeur contiennent :
 
-- Les types numériques : intégraux, à virgule flottante et decimal
+- Les types numériques : intégraux, à virgule flottante et décimal
 - Le type bool. 
 
 Un suffixe est utilisé pour indiquer au compilateur le type d'une valeur numérique.
@@ -35,7 +35,7 @@ Les types de données référence stockent des références aux données réelle
 Le type **`string`** représente une séquence de zéros ou plusieurs caractères Unicode.
 La valeur par défaut d'une chaîne de caractères est **`null`**.
 
-Le type string représente un chaîne de caractères qui est écrite entre guillemets.  La casse (majuscule ou minuscule) est prise en compte.
+Le type string représente une chaîne de caractères qui est écrite entre guillemets.  La casse (majuscule ou minuscule) est prise en compte.
 
 - Exemple : **`"Notions C Sharp"`**
 

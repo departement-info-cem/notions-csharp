@@ -4,18 +4,18 @@ sidebar_position: 3
 
 # Priorité
 
-Lorsqu'une [Expression](https://sites.google.com/site/notionscsharpcem/expression) comporte plusieurs opérateurs, les règles de priorité des opérateurs détermine l'ordre des opérations à effectuer.
+Lorsqu'une [Expression](https://info.cegepmontpetit.ca/notions-csharp/documentation/expression) comporte plusieurs opérateurs, les règles de priorité des opérateurs détermine l'ordre des opérations à effectuer.
 Lorsqu'un expression est évaluée, plusieurs balayages de gauche à droite sont effectuées selon la priorité des opérateurs. Cependant, des parenthèses permettent d'outrepasser ces règles de priorité.
 
 Voici un exemple simple de calcul illustrant l'importance des parenthèses dans une expression.
 
 ```cs
 int note1 = 60, note2 = 80;
-int moyenneErronée  = note 1 + note2 / 2;     // 1er balayage : la division est effectuée
+int moyenneErronée  = note1 + note2 / 2;     // 1er balayage : la division est effectuée
                                               // 2e balayage  : l'addition est effectuée
                                               // 3e balayage  : l'assignation et moyenneErronée = 100
 
-int moyenneCorrecte = (note 1 + note2) / 2;   // 1er balayage : l'addition dans les parenthèses
+int moyenneCorrecte = (note1 + note2) / 2;   // 1er balayage : l'addition dans les parenthèses
                                               // 2e balayage  : la division
                                               // 3e balayage  : l'assignation et moyenneCorrecte = 70
 ```
@@ -35,7 +35,7 @@ L’ordre d’évaluation des expressions est effectué selon les parenthèses e
         - Pour le `||`, si la première opérande est vraie, l'évaluation de la condition se termine
 
 Le tableau ci-dessous contient les opérateurs susceptibles d’être utilisés dans le cours.
-Pour plus d'informations, consultez la [liste complète de la priorité des opérateurs](http://msdn.microsoft.com/fr-fr/library/ms173145%28v=vs.120%29.aspxaspx).
+Pour plus d'informations, consultez la [liste complète de la priorité des opérateurs](https://learn.microsoft.com/fr-fr/dotnet/csharp/language-reference/operators/#operator-precedence).
 
 | Priorité | Catégorie | Les opérateurs |
 | :------: | --------- | -------------- |

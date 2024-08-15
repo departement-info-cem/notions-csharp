@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Un contrôle de type VisualBoolArray est une **grille** dont chaque cellule ne peut contenir que la valeur `true` ou `false`.
 
-Voir les propriétés, les méthodes et les struct communs aux différents types de "VisualArrays" : [BaseGrid](https://sites.google.com/site/notionscsharpcem/gui---visualarrays/basevisualarray)
+Voir les propriétés, les méthodes et les struct communs aux différents types de "VisualArrays" : [BaseGrid](https://info.cegepmontpetit.ca/notions-csharp/visual-arrays/base-grid)
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |

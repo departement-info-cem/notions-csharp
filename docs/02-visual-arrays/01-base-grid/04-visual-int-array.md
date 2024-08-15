@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Un contrôle de type VisualIntArray est une **grille** dont les cellules contiennent des nombres entiers.
 
-Voir les propriétés, méthodes et struct communs aux différents types de "VisualArrays" : [BaseGrid](https://sites.google.com/site/notionscsharpcem/gui---visualarrays/basevisualarray)
+Voir les propriétés, méthodes et struct communs aux différents types de "VisualArrays" : [BaseGrid](https://info.cegepmontpetit.ca/notions-csharp/visual-arrays/base-grid)
 
 | Propriété | Type | Description |
 | :-------: | :--: | ----------- |

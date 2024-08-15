@@ -1,3 +1,3 @@
 ```cs
-string texteAuComplet = hexacoralliaire.ReadToEnd();
+string texteAuComplet = objFichierALire.ReadToEnd();
 ```

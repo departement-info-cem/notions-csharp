@@ -38,4 +38,4 @@ foreach( type item in Collection)
 | -------------------------------------------------------------- | --------- |
 | <Exemple3/> | 5:59 <br/> 5:01 <br/> 6:14 <br/> 7:52 <br/> 8:10 |
 
-Pour d'autres exemples, consultez le [Traitement des collections d'une zone de liste (ListBox)](https://sites.google.com/site/notionscsharpcem/guicontroles/listbox/traitement) et [l'utilisation de menus](https://sites.google.com/site/notionscsharpcem/guicontroles/m).
+Pour d'autres exemples, consultez le [Traitement des collections d'une zone de liste (ListBox)](https://info.cegepmontpetit.ca/notions-csharp/documentation/gui-controles/listbox/traitement) et [l'utilisation de menus](https://info.cegepmontpetit.ca/notions-csharp/documentation/gui-controles/menu).
