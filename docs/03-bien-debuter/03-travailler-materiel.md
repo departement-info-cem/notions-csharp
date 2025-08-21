@@ -14,21 +14,21 @@ Si vous travaillez de la maison, n'oubliez pas d'installer les logiciels nécess
 
 Une fois le matériel téléchargé, double-cliquez sur l'archive. Si 7zip est correctement installé sur votre poste, il devrait s'ouvrir.
 
-![explorateur-windows](./_03-travailler-materiel/_explorateur-windows.png)
+![Explorateur windows.](./_03-travailler-materiel/_explorateur-windows.png)
 
-![7zip](./_03-travailler-materiel/_7zip.png)
+![7zip.](./_03-travailler-materiel/_7zip.png)
 
 Cliquez sur le bouton "**Extraire**".
 
-![extraire](./_03-travailler-materiel/_extraire.png)
+![Bouton extraire.](./_03-travailler-materiel/_extraire.png)
 
 En cliquant sur les "**...**", on vous demande de sélectionner un dossier ou extraire l'archive. Si vous êtes au CÉGEP, choisissez `C:\EspaceLabo\`. Si vous êtes à la maison, choisissez un emplacement qui vous convient. Cliquez sur "**Ok**".
 
-![espace-labo](./_03-travailler-materiel/_espace-labo.png)
+![Choix de l'emplacement.](./_03-travailler-materiel/_espace-labo.png)
 
 Dans un Explorateur Windows, naviguez à l'emplacement où vous venez d'extraire le matériel. Vous devriez voir un répertoire qui porte un nom similaire à l'archive du matériel téléchargé.
 
-![explorateur-windows-2](./_03-travailler-materiel/_explorateur-windows-2.png)
+![Explorateur windows.](./_03-travailler-materiel/_explorateur-windows-2.png)
 
 En ouvrant le répertoire qui contient le matériel, vous devriez voir au moins 2 répertoires :
 
@@ -42,16 +42,16 @@ Vous devez toujours renommer le répertoire `Nom prenom X` pour votre nom et vot
 
 :::
 
-![explorateur-windows-3](./_03-travailler-materiel/_explorateur-windows-3.png)
+![Explorateur windows.](./_03-travailler-materiel/_explorateur-windows-3.png)
 
 Ouvrez le répertoire `Nom prenom X` que vous venez tout juste de renommer.
 
-![explorateur-windows-4](./_03-travailler-materiel/_explorateur-windows-4.png)
+![Explorateur windows.](./_03-travailler-materiel/_explorateur-windows-4.png)
 
 En double-cliquant sur le fichier qui se termine par `.sln` (celui qui a l'icône de Visual Studio), Visual Studio devrait s'ouvrir.
 
 :::danger Attention
 
-Ne modifier jamais le répertoire ou son contenu. Il contient le code source, et des manipulations hasardeuses pourraient rendre votre projet inutilisable.
+Ne modifiez jamais le répertoire ou son contenu. Il contient le code source, et des manipulations hasardeuses pourraient rendre votre projet inutilisable.
 
 :::
