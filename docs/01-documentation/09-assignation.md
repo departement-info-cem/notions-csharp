@@ -7,7 +7,7 @@ sidebar_position: 9
 **L'assignation** ou l'**affectation** est le mécanisme qui place une valeur dans un emplacement mémoire.
 
 Une fois la variable déclarée,  l'instruction d'assignation stocke une valeur à l'emplacement mémoire de la variable.
-L'expression à droite du signe = est évaluée et le résultat est placé dans la variable à gauche du signe =é
+L'expression à droite du signe **=** est évaluée et le résultat est placé dans la variable à gauche du signe **=**.
 
 L'instruction d'assignation peut être codée selon une des formes suivantes :
 
@@ -37,7 +37,7 @@ cptFruits = (nbPersonnes + 4) / 2;    // la valeur 6 est assignée à la variabl
 nombre2 = nombre1;
 ```
 
-Les propriétés des contrôles sont utilisés comme des variables.
+Les propriétés des contrôles sont utilisées comme des variables.
 
 :::note remarque
 

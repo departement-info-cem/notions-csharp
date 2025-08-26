@@ -36,4 +36,4 @@ const   char     CODE_ARRET = 'Z';
 
 - Choix de nom significatif
   - Exemples : TAUX_TAXE, MAX_TEMPERATURE
-- Toutes les lettres sont en majuscules et les mots sont séparées par le symbole souligné  _   (souligné - underscore ).
+- Toutes les lettres sont en majuscules et les mots sont séparés par le symbole souligné  _   (souligné - underscore ).
